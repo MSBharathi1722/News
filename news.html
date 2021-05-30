@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>News</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="navbar">
+		<button onclick="funct('in')"> IND         </button>      
+        <button onclick="funct('us')"> USA         </button>
+		<button onclick="funct('sports')"> Sports	     </button>
+    	<button onclick="funct('business')"> Business    </button>
+    	<button onclick="funct('technology')"> Technology  </button>
+    	<button onclick="funct('ipl')"> IPL	     </button>
+    	<button onclick="funct('covid')"> COVID NEWS </button>           
+    </div>
+    
+    <h2 style="text-align: center;">The News <span id="nam"></span></h2>
+    
+    <div class="slideshow-container">
+      
+      	<div class="mySlides fade">
+        	
+        	<img id="img1" src="load.gif" style="width:100%" >
+        	<div class="caption"><h1><span id="title-1"></span></h1></div>
+      	</div>
+
+      	<div class="mySlides fade">
+        	
+        	<img id="img2" src="load.gif" style="width:100%">
+        	<div class="caption"><h1><span id="title-2"></span></h1></div>
+      	</div>
+
+	    <div class="mySlides fade">
+	       
+	       <img id="img3" src="load.gif" style="width:100%">
+	       <div class="caption"><h1><span id="title-3"></span></h1></div>
+	    </div>
+
+        <div class="mySlides fade">
+        	
+        	<img id="img4" src="load.gif" style="width:100%">
+        	<div class="caption"><h1><span id="title-4"></span></h1></div>
+      	</div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+    </div>
+
+    <div class="body">
+      <div id="show">
+            <div id="container">  
+
+            </div>
+          </div>
+        </div>
+        <footer>
+          <br><br>
+        </footer>
+    
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</body>
+</html>
